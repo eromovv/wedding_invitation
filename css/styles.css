@@ -786,13 +786,15 @@ img {
   .about__board {
     order: 1;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     flex-wrap: nowrap;
     gap: 0;
     padding: 0.25rem 0 0.15rem;
-    width: auto;
+    width: 100%;
     max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .about__shot--tilt-1 {
