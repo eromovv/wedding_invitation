@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Свадебное приглашение" />
+  <title>Владислав & Елена — свадьба</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Lora:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>document.documentElement.classList.add("is-intro");</script>
+</head>
+<body>
+  <main class="page">
+    <div class="page-hearts" id="pageHearts" aria-hidden="true"></div>
+    <header class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__shell">
+        <svg class="hero__love-curve" aria-hidden="true" viewBox="0 0 320 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M-14,74 C78,24 204,30 236,92 C260,144 228,214 168,258 C98,306 38,356 -14,428" />
+        </svg>
+        <div class="hero__love" aria-hidden="true">
+          <span class="hero__love-row hero__love-row--top">
+            <span class="hero__letter hero__letter--el">Л</span>
+            <span class="hero__letter hero__letter--yu">Ю</span>
+          </span>
+          <span class="hero__love-row hero__love-row--mid">
+            <span class="hero__beo">
+              <img class="hero__valentine" src="resources/valentinka.png" alt="" width="80" height="64" loading="lazy" decoding="async" aria-hidden="true" />
+              <span class="hero__letter hero__letter--be hero__letter--under">Б</span>
+              <span class="hero__letter hero__letter--o">О</span>
+            </span>
+          </span>
+          <span class="hero__love-row hero__love-row--bot">
+            <span class="hero__letter hero__letter--ve">В</span>
+            <span class="hero__letter hero__letter--soft hero__letter--under">Ь</span>
+          </span>
+        </div>
+        <div class="hero__names">
+          <span class="hero__name hero__name--groom">Владислав</span>
+          <span class="hero__name hero__name--bride">Елена</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="music scrollfx" data-scrollfx="music" aria-label="Музыка">
+      <button type="button" class="music__btn" id="musicBtn" aria-pressed="false" aria-label="Включить фоновую музыку">
+        <span class="music__play" aria-hidden="true"></span>
+      </button>
+      <div class="music__wave" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <span class="music__label">Music</span>
+      <audio id="bgMusic" loop preload="auto" playsinline>
+        <source src="resources/soundtrack.mp3" type="audio/mpeg" />
+      </audio>
+    </section>
+
+    <section class="invite scrollfx" data-scrollfx="invite">
+      <div class="invite__card">
+        <svg class="invite__border" viewBox="0 0 320 420" preserveAspectRatio="none" aria-hidden="true">
+          <path class="invite__border-path" d="M12,18 Q28,8 48,14 T88,12 T128,16 T168,10 T208,14 T248,8 T288,16 T308,28 L312,48 Q318,88 314,128 T316,208 T310,288 T314,368 Q308,398 288,408 L248,412 Q208,416 168,412 T88,408 T48,412 Q22,402 14,368 L10,288 Q6,208 10,128 T8,48 Q10,28 12,18 Z" fill="none" />
+        </svg>
+        <div class="invite__inner">
+          <h2 class="invite__title script">Мы женимся!</h2>
+          <p class="invite__text"> 
+            Мы будем счастливы разделить с вами один из самых важных дней в нашей жизни.
+            Приходите отметить любовь, смех и новую главу нашей истории.
+          </p>
+          <p class="invite__sign script">С любовью,<br />Владислав и Елена</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="date-block scrollfx" data-scrollfx="date" aria-labelledby="date-heading">
+      <h2 id="date-heading" class="date-block__title script">Важная дата</h2>
+      <div class="date-block__ticket" role="group" aria-label="1 мая 2026, пятница">
+        <span class="date-block__punch date-block__punch--left" aria-hidden="true"></span>
+        <span class="date-block__punch date-block__punch--right" aria-hidden="true"></span>
+        <div class="date-block__stripe" aria-hidden="true"></div>
+        <div class="date-block__body">
+          <p class="date-block__weekday serif">пятница</p>
+          <div class="date-block__grid">
+            <span class="date-block__day">1</span>
+            <span class="date-block__dash" aria-hidden="true"></span>
+            <div class="date-block__meta">
+              <span class="date-block__month script">мая</span>
+              <span class="date-block__year serif">2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about scrollfx" data-scrollfx="about" aria-labelledby="about-heading">
+      <div class="about__paper">
+        <div class="about__layout">
+          <div class="about__content">
+            <h2 id="about-heading" class="about__title script">Немного о нас</h2>
+            <p class="about__text">
+              Мы встретились в обычный день, который стал началом чего-то особенного.
+              Любим путешествовать, кофе по утрам и уютные вечера вдвоём.
+              Нам важно, чтобы рядом в этот день были именно вы.
+            </p>
+          </div>
+          <div class="about__board">
+            <figure class="about__shot about__shot--tilt-1">
+              <span class="about__pin" aria-hidden="true"></span>
+              <img src="resources/our1.jpg" alt="Владислав и Елена" width="600" height="750" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="about__shot about__shot--tilt-2">
+              <span class="about__pin" aria-hidden="true"></span>
+              <img src="resources/our2.jpg" alt="Владислав и Елена" width="600" height="750" loading="lazy" decoding="async" />
+            </figure>
+            <figure class="about__shot about__shot--tilt-3">
+              <span class="about__pin" aria-hidden="true"></span>
+              <a
+                class="about__shot-link"
+                href="https://www.youtube.com/@Moreaamore/featured"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube-канал Moreaamore, откроется в новой вкладке"
+              >
+                <img src="resources/kasp1.jpg" alt="Ещё один кадр из нашей жизни" width="600" height="750" loading="lazy" decoding="async" />
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline scrollfx" id="timeline" data-scrollfx="timeline" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading" class="timeline__heading script">Тайминг дня</h2>
+      <div class="timeline__layout">
+        <svg class="timeline__route" viewBox="0 0 100 500" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <path
+            class="timeline__path-line"
+            pathLength="1"
+            vector-effect="non-scaling-stroke"
+            fill="none"
+            d="M 50 10 C 80 25 80 45 50 60 C 20 75 20 95 50 110 C 80 130 80 160 50 180 C 20 200 20 225 50 245 C 80 265 80 285 50 305 C 20 325 20 345 50 365 C 80 385 80 405 50 425 L 50 440"
+          />
+        </svg>
+        <ol class="timeline__list">
+          <li class="timeline__item">
+            <div class="timeline__point">
+              <time class="timeline__time" datetime="15:00">15:00</time>
+              <p class="timeline__text">Сбор гостей, знакомство, фуршет</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__point">
+              <time class="timeline__time" datetime="16:00">16:00</time>
+              <p class="timeline__text">«Мужское» и «женское» время: баня и пар для гостей сильного пола и неспешные посиделки у невесты с подругами.</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__point">
+              <time class="timeline__time" datetime="18:00">18:00</time>
+              <p class="timeline__text">Основная часть мероприятия</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="place scrollfx" data-scrollfx="place" aria-labelledby="place-heading">
+      <div class="place__curve" aria-hidden="true"></div>
+      <div class="place__inner">
+        <h2 id="place-heading" class="place__title script">Место мероприятия</h2>
+        <div class="place__sketch" role="img" aria-label="Схематичное изображение усадьбы">
+          <img src="./resources/building.png?v=1" alt="Схематичное изображение усадьбы" width="280" height="160" loading="lazy" decoding="async" />
+        </div>
+        <p class="place__name serif">Усадьба «Кедровый бор»</p>
+        <p class="place__addr">г. Могилёв, агрогородок Дашковка</p>
+        <a class="place__map-btn" href="https://yandex.by/maps/?text=%D0%9A%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D0%BE%D1%80%20%D0%94%D0%B0%D1%88%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%91%D0%B2" target="_blank" rel="noopener noreferrer">Смотреть на карте</a>
+      </div>
+    </section>
+
+    <section class="dress scrollfx" data-scrollfx="dress" aria-labelledby="dress-heading">
+      <h2 id="dress-heading" class="dress__title script">Дресс-код</h2>
+      <p class="dress__message serif">Удобная одежда и хорошее настроение</p>
+    </section>
+
+    <footer class="footer scrollfx" data-scrollfx="footer">
+      <a class="footer__ig serif" href="https://www.instagram.com/eromovv/" target="_blank" rel="noopener noreferrer">@eromovv</a>
+      <p class="footer__credit">Сделано с любовью</p>
+    </footer>
+  </main>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
